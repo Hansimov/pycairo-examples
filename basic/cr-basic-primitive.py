@@ -1,8 +1,10 @@
 import sys
 sys.path.append('../library/')
 
-# import header
 from header import *
 
-# print(header.math.pi)
-print(math.pi)
+def startup():
+    width, height = 256, 256
+    sfc = cairo.ImageSurface(cairo.FORMAT_ARGB32, width, height)
+
+    
