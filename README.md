@@ -10,15 +10,24 @@ Thus, I want to show the flexibility and power of Cairo / Pycairo / cairocffi **
 
 I choose Pycairo to create these examples -- it is not hard to reproduce them with Cario or cairocffi.
 
+## Installation and configuration
 
 
 ## Gallery
 
 Long way to go ...
 
+## The structure of this repo
 
+People are used to creating some header files containing commonly used functions, classes and packages, and then import them in the example files.
 
-## Existing Resources
+However, as I am a beginner to a new package, it often makes me puzzled and depressed that the structures of the files are so complicated that I cannot even run a 'hello-world' script successfully.
+
+So on the one hand, I make each example a complete runnable script, which means I will import all the dependencies explicitly and define functions or classes in the same file.
+
+On the other hand, I keep each example as mini as possible, so that readers can focus on only one topic at each time.
+
+## Existing resources
 
 Of course, there has been some useful resources. These resources are good, and if you want to implement some more complicated effects which my examples do not cover, those 'tedious' api references may help a lot.
 
