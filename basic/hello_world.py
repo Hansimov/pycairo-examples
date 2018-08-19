@@ -1,4 +1,3 @@
-
 # <hello-world.py>
 '''
 What you will learn from this script:
@@ -25,7 +24,7 @@ sfc = cairo.ImageSurface(cairo.Format.ARGB32, WIDTH, HEIGHT)
 # ^^^ You can also replace `cairo.Format.ARGB32` to `cairo.FORMAT_ARGB32`:
 # sfc = cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT)
 
-# `cairo.Context(surface)` creates a new Context to a target surface
+# `cairo.Context(target)` creates a new Context to a target surface
 #   with all graphics state parameters set to default values.
 # The target surface should be constructed with a backend-specific function 
 #   such as ImageSurface (or any other cairo backend surface create variant).
