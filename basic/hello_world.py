@@ -1,15 +1,16 @@
 # <hello-world.py>
+
+# What you will learn from this script:
 '''
-What you will learn from this script:
-  - import cairo
-  - create the basic layers of pycairo
-    - surface
-      - set the image format, width and height
-    - context
-        - create and fill a rectangle
-        - use the filled rectangle as the background
-        - draw a new rectangle on the background
-  - write the surface to a .png file
+- import cairo
+- create the basic layers of pycairo
+- surface
+  - set the image format, width and height
+- context
+    - create and fill a rectangle
+    - use the filled rectangle as the background
+    - draw a new rectangle on the background
+- write the surface to a .png file
 '''
 
 import cairo
