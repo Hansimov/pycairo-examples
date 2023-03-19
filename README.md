@@ -15,7 +15,37 @@ I choose Pycairo to create these examples -- it is not hard to reproduce them wi
 
 ## Gallery
 
-Long way to go ...
+### Hello World
+
+![hello_world](./basic/hello_world.png)
+
+[hello_word.py](./basic/hello_world.py) intends to teach to:
+
+- import cairo
+- create the basic layers of pycairo
+- surface
+  - set the image format, width and height
+- context
+    - create and fill a rectangle
+    - use the filled rectangle as the background
+    - draw a new rectangle on the background
+- write the surface to a .png file
+
+### basic shapes
+
+![basic](./basic/arcs.png)
+
+[basic](./basic/arcs.py) intends to teach to:
+
+- import cairo
+- create the basic layers of pycairo
+- surface
+  - set the image format, width and height
+- context
+    - create and fill a rectangle
+    - use the filled rectangle as the background
+    - draw a new rectangle on the background
+- write the surface to a .png file
 
 ## The structure of this repo
 
