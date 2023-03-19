@@ -43,7 +43,7 @@ Well, since this repo is not intented to be something like 'awesome-cairo', I ju
 
 * [Pycairo official docs](https://pycairo.readthedocs.io/en/latest/) and [API Reference](https://pycairo.readthedocs.io/en/latest/reference/index.html)
 
-* [Cairo Tutorial for Python Programmers](http://www.tortall.net/mu/wiki/CairoTutorial)
+* [Cairo Tutorial for Python Programmers](https://web.archive.org/web/20210612200958/http://www.tortall.net/mu/wiki/CairoTutorial)
 
 * [PyCairo tutorial - ZetCode](http://zetcode.com/gfx/pycairo/)
 
